@@ -1,0 +1,15 @@
+# Build output
+/target
+
+# Hidden files, logs and environment
+**/.**
+**/*.log
+**/*.env
+
+# Keep editor and repository metadata
+!.vscode/
+!.gitignore
+
+# Release signing key (never commit)
+*.key
+signing/
